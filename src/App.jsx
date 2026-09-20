@@ -40,7 +40,7 @@ export default function App() {
   return (
     <div className="app">
       <div className="card">
-        <h1 className="title">Todo</h1>
+        <h1 className="title">Here is your todo list</h1>
 
         <form className="add-form" onSubmit={addTodo}>
           <input
