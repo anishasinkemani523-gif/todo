@@ -54,7 +54,13 @@ export default function App() {
             Add
           </button>
         </form>
-
+      <div classname="app">
+        style={{
+          background: "linear-gradient(135deg, #f6d365 0%, #fda085 100%)",
+          minHeight: "100vh",
+        }}
+      </div>
+      
         {todos.length > 0 && (
           <>
             <ul className="todo-list">
